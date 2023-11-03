@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(to bottom,#300047,#8e128e);
+    height: 754px;
+}
+
+.login-info-container{
+    width: 99.7%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-tile{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imglogin{
+    border-radius: 90px; 
+    border-style: solid; 
+    border-color: white;
+    transition: box-shadow 0.3s;
+}
+
+.imglogin:hover{
+    box-shadow: 0px 0px 12px 1px lightpink;
+}
+
+.usr-pwd-tile{
+    width: 40%;
+    height:500px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-heading{
+    font-family: Caveat;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+
+label{
+    font-family: Caveat;
+    font-weight: 800;
+    font-size: 25px;
+    color: white;
+    text-shadow: -1px 01px 10px white;
+}
+
+[type = "submit"]{
+    padding: 8px 40px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: #300047;
+    color: white;
+    font-family: Caveat;
+    text-shadow: 0px 0px 10px white;
+    font-size: 25px;
+}
